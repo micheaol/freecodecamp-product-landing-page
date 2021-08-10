@@ -153,4 +153,30 @@ input {
 
 footer {
     background-color: gray;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    /* justify-content: space-between; */
+    align-self: flex-end;
+}
+
+ul li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+footer p {
+    align-self: flex-end;
 }
